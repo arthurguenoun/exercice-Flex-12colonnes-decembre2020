@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+section {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+}
+header {
+	
+	display: flex;
+	height: 90px;
+	line-height:90px;
+	color:white;
+	font-size: 40px;
+}
+nav {
+	height: 45px;
+	color: white;
+	font-size: 25px;
+	display: flex;
+	line-height:45px;
+}
+#milieu{
+	display: flex;
+	height: 500px;
+}
+#colonnegauche{
+	display:flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+	justify-content: space-between;
+}
+.colonne{
+	width:90%;
+	margin: 15px auto 0 auto;
+	height: 110px;
+	line-height: 100px;
+	border: 1px solid black;
+}
+
+#colonnedroite {
+	padding: 15px;
+}
+#contenu{
+	text-align: center;
+	height:100%;
+	border: 1px solid black;
+	padding-top: 50px;
+}
+#video {
+	height: 330px;
+	margin: 50px 15px 15px 15px;
+	line-height: 330px;
+}
+
+footer {
+	display: flex;
+	height: 80px;
+	line-height: 80px;
+}
+.col-1{width: 8.333333%;}
+.col-2{width: 16.666666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.333333%;}
+.col-5{width: 41.666666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333%;}
+.col-8{width: 66.666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+.bleufonce {background: darkblue;}
+.bleuclair {background: lightblue;}
+.vert {background: green;}
+.jaune {background: yellow;}
+.blanc {background: white;}
+.gris {background: lightgrey;}
+.grisfonce{ background: grey;}
